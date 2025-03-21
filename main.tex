@@ -1,21 +1,18 @@
-\documentclass[oneside]{mwbk}  %polska klasa dokumentu typu książka
+\documentclass[oneside]{mwart}  %polska klasa dokumentu typu książka
 
-\usepackage[T1]{fontenc}       %kodowanie czcionek
+\usepackage[T1]{fontenc}        %kodowanie czcionek
 \usepackage[utf8]{inputenc}     %kodowanie w pliku źródłowym
 \usepackage{polski}             %pakiet lokalizacyjny - polskie nazwy
+\usepackage{fancyhdr}           %nagłówki
+\usepackage{geometry}           %formatowanie
 
-
-
-
-\title{Tytuł projektu}
-\author{Autor}
-\newpage
 
 \begin{document}
-\pagestyle{plain}
+\pagestyle{fancy}
 
-
-
+\fancyhf{}
+\fancyhead[L]{Laboratorium Pomiary Biomedyczne i Technologiczne}
+\fancyhead[R]{Ćw. 1 Chromatografia}
 
 \begin{table}[h]
 \centering
@@ -40,7 +37,6 @@ Grupa 1 (pon. 16:45) & [Imię Nazwisko]                      &   \\
 \end{table}
 
 %tutaj wstaw treść swojego sprawozdania
-
 
 
 
